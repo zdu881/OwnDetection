@@ -1,0 +1,3 @@
+/home/nyz/OwnDetection/CMakeFiles/DLdetection.dir
+/home/nyz/OwnDetection/CMakeFiles/edit_cache.dir
+/home/nyz/OwnDetection/CMakeFiles/rebuild_cache.dir

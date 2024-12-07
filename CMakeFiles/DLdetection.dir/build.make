@@ -69,28 +69,28 @@ include CMakeFiles/DLdetection.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DLdetection.dir/flags.make
 
-CMakeFiles/DLdetection.dir/src/detection.cpp.o: CMakeFiles/DLdetection.dir/flags.make
-CMakeFiles/DLdetection.dir/src/detection.cpp.o: src/detection.cpp
-CMakeFiles/DLdetection.dir/src/detection.cpp.o: CMakeFiles/DLdetection.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyz/OwnDetection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DLdetection.dir/src/detection.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLdetection.dir/src/detection.cpp.o -MF CMakeFiles/DLdetection.dir/src/detection.cpp.o.d -o CMakeFiles/DLdetection.dir/src/detection.cpp.o -c /home/nyz/OwnDetection/src/detection.cpp
+CMakeFiles/DLdetection.dir/src/detectionv.cpp.o: CMakeFiles/DLdetection.dir/flags.make
+CMakeFiles/DLdetection.dir/src/detectionv.cpp.o: src/detectionv.cpp
+CMakeFiles/DLdetection.dir/src/detectionv.cpp.o: CMakeFiles/DLdetection.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nyz/OwnDetection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DLdetection.dir/src/detectionv.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLdetection.dir/src/detectionv.cpp.o -MF CMakeFiles/DLdetection.dir/src/detectionv.cpp.o.d -o CMakeFiles/DLdetection.dir/src/detectionv.cpp.o -c /home/nyz/OwnDetection/src/detectionv.cpp
 
-CMakeFiles/DLdetection.dir/src/detection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DLdetection.dir/src/detection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nyz/OwnDetection/src/detection.cpp > CMakeFiles/DLdetection.dir/src/detection.cpp.i
+CMakeFiles/DLdetection.dir/src/detectionv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DLdetection.dir/src/detectionv.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nyz/OwnDetection/src/detectionv.cpp > CMakeFiles/DLdetection.dir/src/detectionv.cpp.i
 
-CMakeFiles/DLdetection.dir/src/detection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DLdetection.dir/src/detection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nyz/OwnDetection/src/detection.cpp -o CMakeFiles/DLdetection.dir/src/detection.cpp.s
+CMakeFiles/DLdetection.dir/src/detectionv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DLdetection.dir/src/detectionv.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nyz/OwnDetection/src/detectionv.cpp -o CMakeFiles/DLdetection.dir/src/detectionv.cpp.s
 
 # Object files for target DLdetection
 DLdetection_OBJECTS = \
-"CMakeFiles/DLdetection.dir/src/detection.cpp.o"
+"CMakeFiles/DLdetection.dir/src/detectionv.cpp.o"
 
 # External object files for target DLdetection
 DLdetection_EXTERNAL_OBJECTS =
 
-bin/DLdetection: CMakeFiles/DLdetection.dir/src/detection.cpp.o
+bin/DLdetection: CMakeFiles/DLdetection.dir/src/detectionv.cpp.o
 bin/DLdetection: CMakeFiles/DLdetection.dir/build.make
 bin/DLdetection: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
 bin/DLdetection: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DLdetection.dir/src/detection.cpp.o"
-  "CMakeFiles/DLdetection.dir/src/detection.cpp.o.d"
+  "CMakeFiles/DLdetection.dir/src/detectionv.cpp.o"
+  "CMakeFiles/DLdetection.dir/src/detectionv.cpp.o.d"
   "bin/DLdetection"
   "bin/DLdetection.pdb"
 )

@@ -1,16 +1,16 @@
 {
+    "version": "0.2.0",
     "configurations": [
-        
         {
+            "name": "Launch DLdetection",
             "type": "cppdbg",
             "request": "launch",
-            "name": "Launch DLdetection",
             "program": "${workspaceFolder}/bin/DLdetection",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
             "MIMode": "gdb",
             "setupCommands": [
                 {
@@ -19,79 +19,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++ build active file",
-            "miDebuggerPath": "/usr/bin/gdb",
-            "logging": {
-                "engineLogging": true
-            }
-        },
-        {
-            "type": "cppdbg",
-            "request": "launch",
-            "name": "Launch DLdetection",
-            "program": "${workspaceFolder}/bin/DLdetection",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": true,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "C/C++: g++ build active file",
-            "miDebuggerPath": "/usr/bin/gdb",
-            "logging": {
-                "engineLogging": true
-            }
-        },
-        {
-            "type": "cppdbg",
-            "request": "launch",
-            "name": "Launch DLdetection",
-            "program": "${workspaceFolder}/bin/DLdetection",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": true,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "C/C++: g++ build active file",
-            "miDebuggerPath": "/usr/bin/gdb",
-            "logging": {
-                "engineLogging": true
-            }
-        },
-        {
-            "type": "cppdbg",
-            "request": "launch",
-            "name": "Launch DLdetection",
-            "program": "${workspaceFolder}/bin/DLdetection",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": true,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "C/C++: g++ build active file",
+            "preLaunchTask": "CMake Build",
             "miDebuggerPath": "/usr/bin/gdb",
             "logging": {
                 "engineLogging": true

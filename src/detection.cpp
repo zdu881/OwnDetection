@@ -29,6 +29,7 @@ public:
         //drawLights(img_in, lights);
         drawPairedLights(img_in, pairLights(lights, 40, 200));
         display(img_in, "Detected Rotated Rectangles");
+        cv::imwrite("images/detected.png", img_in);
     }
 
 private:

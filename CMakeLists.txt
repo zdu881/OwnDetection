@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-# Set the project name
+# Set the project name5
 project(DLdetection)
 
 # Specify the C++ standard
@@ -12,7 +12,7 @@ include_directories(${PROJECT_SOURCE_DIR}/includes)
 find_package(OpenCV REQUIRED)
 
 # Add the executable
-add_executable(DLdetection src/detection.cpp)
+add_executable(DLdetection src/detectionv.cpp )
 
 # Link OpenCV libraries
 target_link_libraries(DLdetection ${OpenCV_LIBS})

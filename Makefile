@@ -129,29 +129,29 @@ DLdetection/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLdetection.dir/build.make CMakeFiles/DLdetection.dir/build
 .PHONY : DLdetection/fast
 
-src/detection.o: src/detection.cpp.o
-.PHONY : src/detection.o
+src/detectionv.o: src/detectionv.cpp.o
+.PHONY : src/detectionv.o
 
 # target to build an object file
-src/detection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLdetection.dir/build.make CMakeFiles/DLdetection.dir/src/detection.cpp.o
-.PHONY : src/detection.cpp.o
+src/detectionv.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLdetection.dir/build.make CMakeFiles/DLdetection.dir/src/detectionv.cpp.o
+.PHONY : src/detectionv.cpp.o
 
-src/detection.i: src/detection.cpp.i
-.PHONY : src/detection.i
+src/detectionv.i: src/detectionv.cpp.i
+.PHONY : src/detectionv.i
 
 # target to preprocess a source file
-src/detection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLdetection.dir/build.make CMakeFiles/DLdetection.dir/src/detection.cpp.i
-.PHONY : src/detection.cpp.i
+src/detectionv.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLdetection.dir/build.make CMakeFiles/DLdetection.dir/src/detectionv.cpp.i
+.PHONY : src/detectionv.cpp.i
 
-src/detection.s: src/detection.cpp.s
-.PHONY : src/detection.s
+src/detectionv.s: src/detectionv.cpp.s
+.PHONY : src/detectionv.s
 
 # target to generate assembly for a file
-src/detection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLdetection.dir/build.make CMakeFiles/DLdetection.dir/src/detection.cpp.s
-.PHONY : src/detection.cpp.s
+src/detectionv.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLdetection.dir/build.make CMakeFiles/DLdetection.dir/src/detectionv.cpp.s
+.PHONY : src/detectionv.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DLdetection"
-	@echo "... src/detection.o"
-	@echo "... src/detection.i"
-	@echo "... src/detection.s"
+	@echo "... src/detectionv.o"
+	@echo "... src/detectionv.i"
+	@echo "... src/detectionv.s"
 .PHONY : help
 
 

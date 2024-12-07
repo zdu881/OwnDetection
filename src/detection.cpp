@@ -44,7 +44,7 @@ private:
         cv::Mat img_gray, img_binary;
         cv::cvtColor(img, img_gray, cv::COLOR_BGR2GRAY);
         cv::threshold(img_gray, img_binary, 220, 255, cv::THRESH_BINARY);
-        display(img_binary, "Binary Image");
+        //display(img_binary, "Binary Image");
         cv::imwrite("images/binary.png", img_binary);
         return img_binary;
     }
